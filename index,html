@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Sayantika ❤️</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffd6e7, #e8d9ff);
+    overflow: hidden;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    padding: 35px 25px;
+    text-align: center;
+    background: rgba(255,255,255,0.9);
+    border-radius: 25px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+}
+
+.heart {
+    font-size: 65px;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+h1 {
+    color: #ff4081;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.question {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 25px;
+}
+
+button {
+    border: none;
+    padding: 13px 28px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.yes {
+    background: #ff4081;
+    color: white;
+}
+
+.no {
+    background: #ddd;
+    color: #333;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff4081;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="heart">❤️</div>
+
+    <h1>Hey Sayantika...</h1>
+
+    <p>
+        I don't know how to say this perfectly,
+        so I thought I'll let my heart speak. 🥺
+        <br><br>
+        You have become someone really special to me.
+        And honestly...
+        I want you to be a beautiful part of my life. ❤️
+    </p>
+
+    <div class="question">
+        Will you be mine? 🥹❤️
+    </div>
+
+    <button class="yes" onclick="yesClicked()">
+        YES ❤️
+    </button>
+
+    <button class="no" onclick="noClicked()">
+        NO 🙈
+    </button>
+
+    <div id="result">
+        Yayyy! 🥹❤️<br>
+        You just made my day! 🌸<br><br>
+        — Always yours, Arnab ❤️
+    </div>
+
+</div>
+
+<script>
+function yesClicked() {
+    document.getElementById("result").style.display = "block";
+}
+
+function noClicked() {
+    alert("Think again, Sayantika 🙈❤️");
+}
+</script>
+
+</body>
+</html>
